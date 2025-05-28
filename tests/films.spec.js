@@ -335,8 +335,8 @@ describe('Function "moviesAverageByCategory"', () => {
   });
 
   it('should return 0 if there are no movies of that genre', () => {
-  const movies = [ ... ];
-  expect(moviesAverageByCategory(movies, 'Action')).toBe(0);
+    const movies = [];
+    expect(moviesAverageByCategory(movies, 'Action')).toBe(0);
   });
 });
 
