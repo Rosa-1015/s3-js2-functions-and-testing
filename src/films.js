@@ -39,7 +39,7 @@ function orderByYear(movies) {
 }
 
 // Exercise 6: Calculate the average of the movies in a category
-function moviesAverageByCategory() {
+function moviesAverageByCategory(movies, genre) {
   
 	const moviesSameGenre = movies.filter(movie => movie.genre.includes(genre));
   
