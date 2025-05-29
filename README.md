@@ -1,86 +1,80 @@
-# Sprint 3 IT Academy | Video management tool
+# Java Script methods & Unit Tests 
 
-## Introduction
+## 🎬 Description
 
-A company in the audiovisual sector has asked us for a web application that will allow their employees to quickly find movies from a large database they have, since the process is currently done manually.
+A company in the audiovisual sector requested a web application to help their employees quickly find movies from a large internal database, as the process was previously done manually.
+During this sprint, the core of the application was developed, including the complete logic for filtering and sorting movies.
 
-You will be in charge of setting up the core of the application: all the logic of filtering and sorting of movies. You have 2 weeks to finish, which is how long this sprint lasts.
+## Project Structure
 
-<br>
-
-## Requirements
-
-
-1. Clone this repo
-```bash
-$ git clone https://github.com/IT-Academy-BCN/starter-code-frontend-sprint-3-movies
+```plaintext
+starter-code-frontend-sprint-3-movies/
+│
+├── node_modules/
+├── src/
+│   ├── data.js          # Movies dataset (array of objects)
+│   ├── films.js         # Logic implementation goes here
+│   └── index.html
+│
+├── tests/
+│   └── films.spec.js    # All unit tests
+│
+├── test-results.html    # Visual test results (generated)
+├── .gitignore
+├── package.json
+├── package-lock.json
+├── README.md
 ```
 
-2. Unlink your repo from the itacademy repository
-```bash
-$ git remote rm origin
-```
+## 📋 Requirements
 
-3. Link your repo to the repository you have to create in your github account
-```bash
-$ git remote add origin <your repo name!>
-```
-
-<br>
-
-## Submission
-
-1. Upon completion, run the following commands:
+### 1. Clone the repo
 
 ```bash
-$ git add .
-$ git commit -m "Sprint Solution"
-$ git push origin master
+
+git clone https://github.com/Rosa-1015/s3-js2-functions-and-testing
+
 ```
 
-2. Create Pull Request.
+### 2. Disconnect from Rosa-1015 repo
 
-3. Upload the link to the virtual campus so that your mentor can correct it and give you feedback.
+```bash
 
+git remote rm origin
 
-
-<br>
-
-## Introduction
-
-The statement of the exercise is available on the virtual campus.
-
-<br>
-
-## Tests!
-
-
-```shell
-$ npm install
-$ npm run test:watch
 ```
 
-And last, open the generated `test-results.html` file with the "Live Server" VSCode extension to see test results.
+### 3. Link your own GitHub repository
 
-Apart from the statement, you will know exactly what you are asked to do by looking at the file `tests/films.spec.js`, all tests are already defined here!
+```bash
 
-<br>
+git remote add origin <your repo URL>
 
-## Instructions
+```
 
-You have the following indications from the frontend responsible:
+## 🚀 Getting Started
 
-- It is mandatory to implement all loops in ES6 (using map, reduce, filter and sort to manipulate arrays).
+### Install dependencies
 
-- As at the moment we don't consume data from a server using an API, we will work with data from the src/data.js archive. For the moment we will implement the logic using
-an array of information about 250 movies.
+```bash
 
-- The implementation is about processing this array of movies, to display it as requested in each exercise.
+npm install
 
-- The logic to implement will be placed in the src/films.js file.
+```
 
-- You don't need to show the result of each function on the screen. Your goal is to pass the tests.  More information on how to program oriented to pass tests at the end of the document.
+### Run tests in watch mode
 
-- Don't forget to include the capture of the test results in the virtual campus.
+```bash
+npm run test:watch
+```
+
+### View HTML report of test results
+
+After running the tests, a file named test-results.html is generated.
+Open this file using the Live Server extension in VS Code to see the test results visually (passed/failed lines in green/red).
+
+## Extra Notes
+-	To open test-results.html, right-click the file in VSCode and select "Open with Live Server".
+-	You can press w while the test watcher is running to see other watch options.
 
 
