@@ -3,9 +3,9 @@
 ## 🎬 Description
 
 A company in the audiovisual sector requested a web application to help their employees quickly find movies from a large internal database, as the process was previously done manually.
-During this sprint, the core of the application was developed, including the complete logic for filtering and sorting movies.
+During this sprint, the application's core was developed, implementing the full logic for filtering and sorting movies, with all functionality verified through Jest tests.
 
-## Project Structure
+## 📁 Project Structure
 
 ```plaintext
 starter-code-frontend-sprint-3-movies/
@@ -73,8 +73,13 @@ npm run test:watch
 After running the tests, a file named test-results.html is generated.
 Open this file using the Live Server extension in VS Code to see the test results visually (passed/failed lines in green/red).
 
-## Extra Notes
+## 📝 Extra Notes
+
 -	To open test-results.html, right-click the file in VSCode and select "Open with Live Server".
 -	You can press w while the test watcher is running to see other watch options.
 
+## 🔗 Useful Links
 
+- [Jest Documentation](https://jestjs.io/docs/getting-started) – Learn more about writing and running tests with Jest.
+- [Live Server Extension (VSCode)](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) – Open `test-results.html` visually.
+- [MDN Web Docs - Array methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) – Reference for ES6 array methods (`map`, `filter`, `reduce`, `sort`).
